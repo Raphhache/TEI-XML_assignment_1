@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT Myletters (letter+)>
+<!ELEMENT letter (author+, destination, body, place, date, url)>
+<!ATTLIST letter id CDATA #REQUIRED>
+<!ELEMENT author (#PCDATA)>
+<!ELEMENT destination (persName, placeName)>
+<!ELEMENT persName (#PCDATA)>
+<!ELEMENT placeName (#PCDATA)>
+<!ELEMENT body (p+)>
+<!ELEMENT p (#PCDATA)>
+<!ELEMENT place (#PCDATA)>
+<!ELEMENT date (year)>
+<!ATTLIST date when CDATA #REQUIRED>
+<!ATTLIST date calendar (gregorian | persian) #REQUIRED>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT url (#PCDATA)>
+

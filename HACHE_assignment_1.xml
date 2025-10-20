@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Myletters SYSTEM "HACHE_assignment_1.dtd">
+
+<Myletters>
+   <letter id="">
+      <author></author>
+      <destination>
+         <persName></persName>
+         <placeName></placeName>
+      </destination>
+      <body>
+         <p></p>
+      </body>
+      <place></place>
+      <date when="" calendar="persian">
+         <year></year>
+      </date>
+      <url></url>
+   </letter>
+   
+   <letter id="">
+      <author></author>
+      <destination>
+         <persName></persName>
+         <placeName></placeName>
+      </destination>
+      <body>
+         <p></p>
+      </body>
+      <place></place>
+      <date when="" calendar="persian">
+         <year></year>
+      </date>
+      <url></url>
+   </letter>
+   
+   <letter id="">
+      <author></author>
+      <destination>
+         <persName></persName>
+         <placeName></placeName>
+      </destination>
+      <body>
+         <p></p>
+      </body>
+      <place></place>
+      <date when="" calendar="persian">
+         <year></year>
+      </date>
+      <url></url>
+   </letter>
+</Myletters>
+
